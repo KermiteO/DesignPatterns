@@ -1,0 +1,144 @@
+run:
+*****************************************
+*      WELCOME TO THE ROACH MOTEL       *
+*****************************************
+
+Current Motel Status...
+motel: {} available : [101, 102, 103, 104, 105]
+
+The first colony is checking in...
+available Rooms: [101, 102, 103, 104, 105]
+in set amenities: [foodbar, spa, refillbar, shower]
+Suite, FoodBar, Spa, RefillBar, Shower 160.0
+first colony 100
+
+Current Motel Status...
+motel: {Suite, FoodBar, Spa, RefillBar, Shower 160.0=first colony 100} available : [102, 103, 104, 105]
+
+The Second colony is checking in...
+available Rooms: [102, 103, 104, 105]
+in set amenities: [foodbar]
+Suite, FoodBar 110.0
+Second colony 1000
+
+Current Motel Status...
+motel: {Suite, FoodBar, Spa, RefillBar, Shower 160.0=first colony 100, Suite, FoodBar 110.0=Second colony 1000} available : [103, 104, 105]
+
+The Second colony just threw a party!!
+(Name Population) --> Second colony 600
+
+The Second colony is checking out...
+available Rooms: [103, 104, 105]
+room number is: 102
+The number of days spent is: 3
+cost:330.0
+
+Current Motel Status...
+motel: {Suite, FoodBar, Spa, RefillBar, Shower 160.0=first colony 100} available : [103, 104, 105, 102]
+
+The third colony is checking in...
+available Rooms: [103, 104, 105, 102]
+in set amenities: [foodbar, spa, refillbar]
+Suite, FoodBar, Spa, RefillBar 135.0
+
+The first colony just threw a party!!
+(Name Population) --> first colony 85
+
+The fourth colony is checking in...
+available Rooms: [104, 105, 102]
+in set amenities: [spa, shower]
+Regular, Spa, Shower 95.0
+
+The fifth colony is checking in...
+available Rooms: [105, 102]
+in set amenities: [refillbar]
+Deluxe, RefillBar 80.0
+
+The sixth colony is checking in...
+available Rooms: [102]
+in set amenities: [spa]
+Deluxe, Spa 95.0
+
+The Seventh colony is checking in...
+available Rooms: []
+
+There are no more vacancies left!!!
+The Seventh colony got sent to the waitlist...
+Observers: [Seventh colony 700]
+
+The eigth colony is checking in...
+available Rooms: []
+
+There are no more vacancies left!!!
+The eigth colony got sent to the waitlist...
+Observers: [Seventh colony 700, eigth colony 800]
+
+The third colony is checking out...
+available Rooms: []
+The Seventh colony colony received the notification from The only motel in town
+The eigth colony colony received the notification from The only motel in town
+room number is: 103
+The number of days spent is: 3
+cost:405.0
+
+The ninth colony is checking in...
+available Rooms: [103]
+in set amenities: [foodbar]
+Regular, FoodBar 60.0
+
+The Tenth colony is checking in...
+available Rooms: []
+
+There are no more vacancies left!!!
+The Tenth colony got sent to the waitlist...
+Observers: [Tenth colony 1100]
+
+The Eleventh colony is checking in...
+available Rooms: []
+
+There are no more vacancies left!!!
+The Eleventh colony got sent to the waitlist...
+Observers: [Tenth colony 1100, Eleventh colony 1200]
+
+The twelve colony is checking in...
+available Rooms: []
+
+There are no more vacancies left!!!
+The twelve colony got sent to the waitlist...
+Observers: [Tenth colony 1100, Eleventh colony 1200, twelve colony 1300]
+
+The first colony is checking out...
+available Rooms: []
+The Tenth colony colony received the notification from The only motel in town
+The Eleventh colony colony received the notification from The only motel in town
+The twelve colony colony received the notification from The only motel in town
+room number is: 101
+The number of days spent is: 7
+cost:1120.0
+
+The eigth colony is checking in...
+available Rooms: [101]
+in set amenities: [foodbar]
+Suite, FoodBar 110.0
+
+The sixth colony is checking out...
+available Rooms: []
+room number is: 102
+The number of days spent is: 14
+cost:1330.0
+
+The fifth colony is checking out...
+available Rooms: [102]
+room number is: 105
+The number of days spent is: 30
+cost:2400.0
+
+The ninth colony is checking out...
+available Rooms: [102, 105]
+room number is: 103
+The number of days spent is: 5
+cost:300.0
+
+*** ERROR - THIS COLONY NEVER CHECKED IN! ***
+
+BUILD SUCCESSFUL (total time: 0 seconds)
